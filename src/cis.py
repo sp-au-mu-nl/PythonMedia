@@ -41,3 +41,11 @@ def stem3(z):
                   width=800, height=800,
                   showlegend=False)
   fig.show()    
+
+def mesh(z):
+    data = [ go.Surface(z = z) ]
+    fig = go.Figure(data = data)
+    fig.update_layout(
+        width=800, height=800,
+        showlegend=False)
+    fig.show()
