@@ -49,3 +49,4 @@ def mesh(z):
         width=800, height=800,
         showlegend=False)
     fig.show()
+    return fig
