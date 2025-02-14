@@ -48,5 +48,4 @@ def mesh(z):
     fig.update_layout(
         width=800, height=800,
         showlegend=False)
-    fig.show()
     return fig
